@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        var X = prompt("Enter a numnber for X : ");
+        var Y = prompt("Enter a numnber for Y : ");
+        var Z = prompt("Enter a numnber for Z : ");
+
+        document.write("X ="+X +"<br>");
+        document.write("Y ="+Y +"<br>");
+        document.write("Z ="+Z +"<br>");
+
+
+        // if(X > Y && X > Z){
+            
+        //     document.write("X is largest");
+
+        // }
+        // if(Y > X && Y > Z){
+        //     document.write("Y is largest");
+        // }else{
+        //     document.write("Z is largest");
+        // }
+
+
+        if(X>Y){
+
+            if(X > Z){
+                document.write("X is largest");
+            }
+        }else if(Y > X){
+            if(Y > Z){
+                document.write("Y is largest");
+            }
+        }else{
+            document.write("Z is largest");
+        }
+
+
+    </script>
+</body>
+</html>
